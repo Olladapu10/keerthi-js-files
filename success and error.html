@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success and Error </title>
+    <style>
+        .success{
+            border:3px dotted yellowgreen;
+        }
+        .error{
+            border:3px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit,amet consectetur adipisicing elit.Numquam quam aliquam ab vero dolore deleniti iusto assumenda placeat,expedita vel!
+    </div>
+    <div class="a1">
+        Lorem ipsum,dolor sit amet consectetur adipisicing elit. Quisquam atque eligendi blanditiis architecto vel numquam odio nam omnis optio voluptatum?</div>
+        <div>Lorem 100</div>
+        <div>Lorem 50</div>
+        <h1><div>KEERTHI</div></h1>
+        <script>
+            var m1=document.querySelectorAll("div");
+            m1.forEach(function(n){
+                n.classList.add("success");
+                n.classList.remove("a1");
+                n.style.margin="15px";
+            })
+
+        </script>
+    
+</body>
+</html>

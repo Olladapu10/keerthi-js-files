@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+
+ <p id="Boolean False"></p>
+ <script>
+  var x=2;
+  var y=3;
+  var z=4;
+  document.getElementById("Boolean False").innerHTML=(x==y);
+ </script>
+
+ <p id="Boolean True"></p>
+ <script>
+  var a=2;
+  var b=2;
+  var c=4;
+  document.getElementById("Boolean True").innerHTML=(a==b);
+ </script>
+
+
+
+ <p id="Number"></p>
+<script>
+let x1 = 50.00;
+let x2 = 94;
+let x3 = 5.34;
+
+document.getElementById("Number").innerHTML =
+x1 + "<br>" + x2 + "<br>" + x3;
+</script>
+
+
+
+<p id="undefined"></p>
+<script>
+ let bike;
+ document.getElementById("undefined").innerHTML=bike + "<br>" + typeof bike;
+</script>
+
+
+
+<p id="array"></p>
+
+<script>
+const names = ["keerthi","jyothi","prasanna"];
+
+document.getElementById("array").innerHTML = names[0];
+</script>
+
+
+
+
+<p id="object"></p>
+<script>
+
+const person = {
+  firstName : "Keerthi",
+  lastName  : "Olladapu",
+  age     : 20,
+  eyeColor  : "black"
+};
+
+document.getElementById("object").innerHTML =
+person.firstName + " " +  person.lastName + " is " + person.age + " years old.";
+
+
+</script>
+
+<p id="string"></p>
+<script>
+let x = 31 + "districts";
+document.getElementById("string").innerHTML = x;
+</script>
+
+</body>
+</html>

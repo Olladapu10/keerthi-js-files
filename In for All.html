@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>For Loop</title>
+</head>
+<body>
+ //for in
+ <p id="forin"></p>
+ <script>
+  const name = {firstname:"  Keerthi ",lastname:"  Olladapu  ",age:20};
+   let text ="";
+   for (let x in name) {
+    text += name [x]+"";
+   }
+   document.getElementById("forin").innerHTML = text;
+
+ </script>
+
+
+//for off
+ <p id="foroff"></p>
+ <script>
+  const vechicles =[" car "," bus ",2];
+  let text1 ="";
+  for (let y in vechicles){
+   text1 += vechicles[y]+"";
+  }
+  document.getElementById("foroff").innerHTML = text1;
+  
+ </script>
+
+
+
+</body>
+</html>
